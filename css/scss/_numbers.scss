@@ -1,0 +1,24 @@
+.numbers {
+    width: 100%;
+    height: 258px;
+    background-image: url(../images/Untitled-1.jpg);
+    padding-top: 120px;
+    padding-bottom: 98px;
+    color: $primary-color;
+    &-list {
+        display: flex;
+        justify-content: space-around;
+
+        &__item {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+
+    .work1,.time1,.customer1,.rate1 {
+        font-size: 150%;
+        padding-right: 20px;
+        transform: translate(0,20%);
+    }
+}
